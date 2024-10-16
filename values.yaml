@@ -1,6 +1,6 @@
 replicaCount: 2
 region: ORD1
-name: authoritative-dns
+name: bind9
 image:
   image: internetsystemsconsortium/bind9
   pullPolicy: IfNotPresent
