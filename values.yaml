@@ -4,7 +4,7 @@ name: authoritative-dns
 image:
   image: internetsystemsconsortium/bind9
   pullPolicy: IfNotPresent
-  tag: 9.11
+  tag: 9.20
 
 imageConfig:
   pullPolicy: IfNotPresent
