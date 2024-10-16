@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "bind9.name" . }}-tcp
+  name: bind9-tcp
   labels:
     {{- include "bind9.labels" . | nindent 4 }}
   {{- if .Values.service.annotations }}
@@ -22,7 +22,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "bind9.name" . }}-udp
+  name: bind9-udp
   labels:
     {{- include "bind9.labels" . | nindent 4 }}
   {{- if .Values.service.annotations }}
