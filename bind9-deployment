@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: trident-bind9
-        image: rogbick/trident-bind9:24.04a
+        image: rogbick/trident1-bind9:1.00
         imagePullPolicy: IfNotPresent
         env:
         ports:
