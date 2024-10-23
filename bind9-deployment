@@ -13,7 +13,7 @@ spec:
         app: bind9
     spec:
       containers:
-      - name: bind9
+      - name: trident-bind9
         image: rogbick/trident-bind9
         imagePullPolicy: IfNotPresent
         env:
